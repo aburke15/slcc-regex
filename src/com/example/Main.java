@@ -3,12 +3,12 @@ package com.example;
 public class Main {
 
     public static void main(String[] args) {
-        String whitespaceText = "John          , Smith         ,   23,Seattle,      98103";
+        String whiteSpaceText = "John          , Smith         ,   23,Seattle,      98103";
         String colourText = "What colour? Any colour – as long as it is black.";
 
         System.out.println(fixColour(colourText));
         System.out.println(replaceWords(colourText));
-        System.out.println(fixCsvLine(whitespaceText));
+        System.out.println(fixCsvLine(whiteSpaceText));
     }
 
     /*
